@@ -9,6 +9,11 @@ const people = [
 ];
 </script>
 
+<svelte:head>
+  <title>Our Staff</title>
+  <meta name="description" content="Company description" />
+</svelte:head>
+
 <div class="px-2 pt-2">
   <div class="flex justify-evenly flex-wrap -mx-2 ">
     {#each people as person }
